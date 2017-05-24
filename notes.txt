@@ -1,0 +1,69 @@
+
+
+Running
+```````
+$ react-native init todos
+$ cd todos
+$ react-native run-ios
+
+
+Running from xcode
+``````````````````
+~/_1a/repo1/g-native/lab/todos-native/todos/ios
+$ open todos.xcodeproj/
+
+
+Chrome dev tool
+```````````````
+"Debug JS Remotely" from the Developer Menu.
+This will open a new tab at http://localhost:8081/debugger-ui
+
+
+Android simulator
+``````````````````
+Path to emulator command:
+  /Users/apollotang/Library/Android/sdk/emulator/emulator
+
+list android virture device:
+  /Users/apollotang/Library/Android/sdk/emulator/emulator -list-avds
+
+
+  /Users/apollotang/Library/Android/sdk/emulator/emulator -avd Nexus_5X_API_23
+
+  ref:
+  http://stackoverflow.com/questions/4974568/how-do-i-launch-the-android-emulator-from-the-command-line
+  http://stackoverflow.com/questions/34532063/finding-android-sdk-on-mac-and-adding-to-path
+
+
+Debug menu in simulator
+```````````````````````
+ios cmd-D (or with shake gesture: ctrl-cmd-z)
+Adr cmd+M
+
+
+console.log to terminal
+```````````````````````
+$ react-native log-ios
+$ react-native log-android
+
+
+How do I restart react native packager?
+```````````````````````````````````````
+To restart packager you first kill it (like close the terminal window) and start it manually:
+
+$ react-native start
+or
+$ npm start
+
+https://github.com/drapanjanas/re-natal/issues/56
+
+
+How to Use Absolute Paths in React Native
+``````````````````````````````````````````
+https://medium.com/@davidjwoody/how-to-use-absolute-paths-in-react-native-6b06ae3f65d1
+
+
+How to get `__dirname` like Node.js using react native
+``````````````````````````````````````````````````````
+http://stackoverflow.com/questions/29297295/how-to-get-dirname-like-node-js-using-react-native/29301756#29301756
+

@@ -1,0 +1,16 @@
+
+"__nw_connection_get_connected_socket_block_invoke Connection has no connected handler" error on iOS 10
+https://github.com/facebook/react-native/issues/10027
+
+
+
+Problem solving: "No bundle url present"
+`````````````````````````````````````````
+https://github.com/facebook/react-native/issues/12754
+http://stackoverflow.com/questions/42610070/what-means-of-no-bundle-url-present-in-react-native
+
+
+While loading image get 'Unexpected character '�' (1:0)'
+``````````````````````````````````````````````````````````
+https://github.com/facebook/react-native/issues/6691
+http://stackoverflow.com/questions/36252381/error-on-load-image-on-react-native-unexpected-character/36289632#36289632
